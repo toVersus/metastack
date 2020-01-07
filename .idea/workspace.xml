@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7412d36a-982c-4369-8cf4-390ba751bba6" name="Default Changelist" comment="" />
+    <list default="true" id="7412d36a-982c-4369-8cf4-390ba751bba6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.goreleaser.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.goreleaser.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,9 +78,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="343" y="72" key="SettingsEditor/1440.23.2560.1417/0.23.1440.820@0.23.1440.820" timestamp="1578358175569" />
-    <state x="399" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1578378339823">
+    <state x="399" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1578404887058">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
+    <state x="399" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1578404887058" />
     <state x="399" y="265" key="com.intellij.ide.util.TipDialog/1440.23.2560.1417/0.23.1440.820@0.23.1440.820" timestamp="1578378339823" />
   </component>
 </project>

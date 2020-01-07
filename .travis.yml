@@ -7,6 +7,7 @@ git:
 branches:
   only:
   - master
+  - /^v.*/
 
 deploy:
 - provider: script
