@@ -1,0 +1,28 @@
+before:
+  hooks:
+    - go mod download
+builds:
+  - binary: metastack
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+changelog:
+  filters:
+    exclude:
+      - Merge pull request
+      - Merge branch
+archive:
+  format: tar.gz
+  name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+  files:
+    - README.md
+  replacements:
+    darwin: Darwin
+    linux: Linux
+    amd64: x86_64
+release:
+  github:
+    owner: toVersus
+    name: metastack
